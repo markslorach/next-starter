@@ -9,8 +9,6 @@ const NavBar = () => {
         <Link href="/" className="font-semibold">
           Next<span className="text-blue-500">Starter</span>
         </Link>
-
-       
       </div>
     </header>
   );
