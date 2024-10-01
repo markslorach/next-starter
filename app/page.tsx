@@ -6,7 +6,7 @@ export default function Home() {
           Next.js 14 Starter Template
         </h1>
 
-        <p className="mx-auto max-w-xl text-xl font-medium italic tracking-tight text-zinc-500 sm:text-2xl">
+        <p className="mx-auto max-w-xl text-xl tracking-tight text-zinc-500 sm:text-2xl">
           Next.js 14 starter template using TypeScript, Tailwind CSS, and
           Shadcn/ui.
         </p>
