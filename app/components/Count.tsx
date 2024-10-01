@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/components/shadcn/button";
 
 const Count = () => {
   const [count, setCount] = useState(0);
