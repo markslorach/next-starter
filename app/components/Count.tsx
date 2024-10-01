@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button } from "@/app/components/shadcn/button";
 
 const Count = () => {
@@ -10,7 +10,7 @@ const Count = () => {
   };
 
   return (
-    <React.Fragment>
+    <div>
       <p className="mb-2 text-5xl font-bold">{count}</p>
       <Button
         onClick={handleClick}
@@ -19,7 +19,7 @@ const Count = () => {
       >
         Count
       </Button>
-    </React.Fragment>
+    </div>
   );
 };
 

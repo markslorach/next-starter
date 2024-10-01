@@ -2,15 +2,19 @@ import Count from "./components/Count";
 
 export default function Home() {
   return (
-    <section className="container py-24 text-center">
-      <h1 className="mb-2 text-3xl font-bold">Next.js 14 Starter</h1>
+    <main>
+      <section className="container py-24 text-center">
+        <h1 className="mb-4 text-4xl font-bold sm:text-5xl">
+          Next.js 14 Starter Template
+        </h1>
 
-      <p className="mb-10 font-medium">
-        Next.js 14 starter template with TypeScript, Tailwind CSS, and
-        Shadcn/ui.
-      </p>
+        <p className="mx-auto mb-10 max-w-xl text-xl font-medium text-zinc-500 sm:text-2xl">
+          Next.js 14 starter template using TypeScript, Tailwind CSS, and
+          Shadcn/ui.
+        </p>
 
-      <Count />
-    </section>
+        <Count />
+      </section>
+    </main>
   );
 }
