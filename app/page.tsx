@@ -1,4 +1,4 @@
-export default function Home() {
+const HomePage = () => {
   return (
     <main>
       <section className="container py-24 text-center">
@@ -13,4 +13,6 @@ export default function Home() {
       </section>
     </main>
   );
-}
+};
+
+export default HomePage;
