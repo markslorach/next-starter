@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="mt-auto h-16 border-t">
       <div className="container flex h-full items-center justify-between">
         <small className="text-zinc-500">
-          <Link href="https://github.com/markslorach/next-starter-shadcn-ui.git">
+          <Link href="https://www.markslorach.com/" target="_blank">
             &copy; 2024 Mark Slorach
           </Link>
         </small>
